@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Questionnaire</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            /* background: #007bff; */
+            background: #c8102e;
+            color: #fff;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button:hover {
+            background: hsl(350, 65%, 42%);
+        }
+        textarea{
+            width: 100%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../logo.png" alt="ACS Studio Logo" id="logo">
+        <h1>ACS Studio - Air Maple Studio</h1>
+        <p>Bringing Air Canada to Life in Scratch!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../">Home</a></li>
+            <li><a href="../avp/">AVP</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <p><strong>Dear Participants:</strong><br>
+            Hello! We are a research team from Luxun Middle School, and we are conducting a study on the effects of carbonated drinks on dental health. This questionnaire aims to understand the public's awareness of the possible harm of carbonated drinks, and your answers are very important to our research. This questionnaire is filled out anonymously and is only used for academic research. Please feel free to answer it. Thank you for your support! Due to technical reasons, other options are temporarily unavailable, please understand. </p>
+    <form id="survey-form">
+        <div class="question">
+            <h2>I. Basic Information (Multiple Choice)</h2>
+            <label>1. Your age:</label><br>
+            <label><input type="radio" name="age" value="Under 10"> Under 10</label><br>
+            <label><input type="radio" name="age" value="10–20"> 10–20</label><br>
+            <label><input type="radio" name="age" value="21–40"> 21–40</label><br>
+            <label><input type="radio" name="age" value="41–60"> 41–60</label><br>
+            <label><input type="radio" name="age" value="Over 60"> Over 60</label><br>
+
+            <label>2. Your gender:</label><br>
+            <label><input type="radio" name="gender" value="Male"> Male</label><br>
+            <label><input type="radio" name="gender" value="Female"> Female</label><br>
+            <label><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label><br>
+
+            <label>3. Your occupation:</label><br>
+            <label><input type="radio" name="job" value="Student"> Student</label><br>
+            <label><input type="radio" name="job" value="Teacher"> Teacher</label><br>
+            <label><input type="radio" name="job" value="Healthcare Professional"> Healthcare Professional</label><br>
+            <label><input type="radio" name="job" value="Corporate Employee"> Corporate Employee</label><br>
+            <label><input type="radio" name="job" value="Freelancer"> Freelancer</label><br>
+            <label><input type="radio" name="job" value="Retiree"> Retiree</label><br>
+            <label><input type="text" name="job_other" placeholder="Other"> </label><br>
+        </div>
+
+        <div class="question">
+            <h2>II. Drinking habits (single-choice/multiple-choice questions)</h2>
+            <label>4. How often do you drink carbonated beverages?</label><br>
+            <label><input type="radio" name="frequency" value="Every day"> Every day</label><br>
+            <label><input type="radio" name="frequency" value="Several times a week"> Several times a week</label><br>
+            <label><input type="radio" name="frequency" value="Several times a month"> Several times a month</label><br>
+            <label><input type="radio" name="frequency" value="Rarely"> Rarely</label><br>
+
+            <label>5. Which brands of carbonated beverages do you usually drink? (Multiple choice)</label><br>
+            <label><input type="checkbox" name="brand" value="Coca-Cola"> Coca-Cola</label><br>
+            <label><input type="checkbox" name="brand" value="Pepsi"> Pepsi</label><br>
+            <label><input type="checkbox" name="brand" value="Sprite"> Sprite</label><br>
+            <label><input type="checkbox" name="brand" value="Fanta"> Fanta</label><br>
+            <label><input type="text" name="brand_other" placeholder="Other"> </label><br>
+
+            <label>6. Do you have any of the following habits when drinking carbonated beverages? (Multiple choice)</label><br>
+            <label><input type="checkbox" name="habit" value="Rinse mouth immediately after drinking"> Rinse mouth immediately after drinking</label><br>
+            <label><input type="checkbox" name="habit" value="Brush teeth after drinking"> Brush teeth after drinking</label><br>
+            <label><input type="checkbox" name="habit" value="Drink directly without any other treatment"> Drink directly without any other treatment</label><br>
+            <label><input type="text" name="habit_other" placeholder="Other"> </label><br>
+        </div>
+
+        <div class="question">
+            <h2>III. Health cognition (multiple choice questions)</h2>
+            <label>7. What do you think are the possible effects of long-term consumption of carbonated beverages on teeth? (Multiple choice)</label><br>
+            <label><input type="checkbox" name="impact" value="Enamel erosion"> Enamel erosion</label><br>
+            <label><input type="checkbox" name="impact" value="Tooth discoloration"> Tooth discoloration</label><br>
+            <label><input type="checkbox" name="impact" value="Cavities"> Cavities</label><br>
+            <label><input type="checkbox" name="impact" value="No significant impact"> No significant impact</label><br>
+            <label><input type="checkbox" name="impact" value="Not sure"> Not sure</label><br>
+
+            <label>8. Are you aware of the acidity of carbonated beverages?</label><br>
+            <label><input type="radio" name="acidity" value="Very aware"> Very aware</label><br>
+            <label><input type="radio" name="acidity" value="Somewhat aware"> Somewhat aware</label><br>
+            <label><input type="radio" name="acidity" value="Not aware"> Not aware</label><br>
+
+            <label>9. Do you think reducing the intake of carbonated beverages helps protect dental health?</label><br>
+            <label><input type="radio" name="reduce" value="Yes"> Yes</label><br>
+            <label><input type="radio" name="reduce" value="No"> No</label><br>
+            <label><input type="radio" name="reduce" value="Not sure"> Not sure</label><br>
+        </div>
+
+        <div class="question">
+            <h2>IV. Public Attitude (Questions and Answers)</h2>
+            <label>10. What do you think are effective methods to reduce the harm of carbonated beverages on teeth?</label><br>
+            <textarea name="methods" rows="4" cols="50"></textarea><br>
+
+            <label>11. Are you willing to learn more scientific knowledge about the health effects of carbonated beverages?</label><br>
+            <label><input type="radio" name="learn" value="Yes"> Yes</label><br>
+            <label><input type="radio" name="learn" value="No"> No</label><br>
+        </div>
+
+        <div class="question">
+            <h2>V. Investigator’s opinion (questions and answers)</h2>
+            <label>12. Do you have any other opinions or suggestions about carbonated beverages?</label><br>
+            <textarea name="suggestions" rows="4" cols="50"></textarea><br>
+        </div>
+
+        <button class="button" onclick="submitSurvey()">Submit Survey</button>
+    </form>
+</section>
+
+    <footer>
+        <p>© 2024 ACS Studio - Air Maple Studio. All rights reserved.</p>
+    </footer>
+
+    <script>
+    document.getElementById('survey-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        // 获取所有必填问题的答案
+        const age = document.querySelector('input[name="age"]:checked');
+        const gender = document.querySelector('input[name="gender"]:checked');
+        const job = document.querySelector('input[name="job"]:checked');
+        const jobOther = document.querySelector('input[name="job_other"]').value.trim();
+        const frequency = document.querySelector('input[name="frequency"]:checked');
+        const brands = document.querySelectorAll('input[name="brand"]:checked');
+        const habits = document.querySelectorAll('input[name="habit"]:checked');
+        const impact = document.querySelectorAll('input[name="impact"]:checked');
+        const acidity = document.querySelector('input[name="acidity"]:checked');
+        const reduce = document.querySelector('input[name="reduce"]:checked');
+        const methods = document.querySelector('textarea[name="methods"]').value.trim();
+        const learn = document.querySelector('input[name="learn"]:checked');
+        const suggestions = document.querySelector('textarea[name="suggestions"]').value.trim();
+
+        // 验证基本问题是否填写完整
+        if (!age || !gender || (!job && !jobOther)) {
+            alert('Please complete your basic information!');
+            return;
+        }
+
+        if (!frequency) {
+            alert('Please answer your drinking frequency!');
+            return;
+        }
+
+        if (brands.length === 0) {
+            alert('Please select the brands of carbonated drinks you consume!');
+            return;
+        }
+
+        if (habits.length === 0) {
+            alert('Please select your drinking habits!');
+            return;
+        }
+
+        if (impact.length === 0) {
+            alert('Please select the long-term effects of drinking!');
+            return;
+        }
+
+        if (!acidity) {
+            alert('Please select your understanding of acidity!');
+            return;
+        }
+
+        if (!reduce) {
+            alert('Please select your attitude towards reducing intake!');
+            return;
+        }
+
+        if (!learn) {
+            alert('Please select whether you are willing to learn more related knowledge!');
+            return;
+        }
+
+        // 收集数据
+        const selectedBrands = Array.from(brands).map(brand => brand.value);
+        const selectedHabits = Array.from(habits).map(habit => habit.value);
+        const selectedImpact = Array.from(impact).map(i => i.value);
+
+        const data = {
+            age: age.value,
+            gender: gender.value,
+            job: job ? job.value : jobOther,
+            frequency: frequency.value,
+            brands: selectedBrands,
+            habits: selectedHabits,
+            impact: selectedImpact,
+            acidity: acidity.value,
+            reduce: reduce.value,
+            methods: methods,
+            learn: learn.value,
+            suggestions: suggestions
+        };
+
+        // 提交数据
+        fetch('https://response.acsstudio.site/submit_survey', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Survey submission failed');
+        }
+        return response.json();
+    })
+    .then(result => {
+        alert(result.message);
+    })
+    .catch(error => {
+        console.error('Error submitting:', error);
+        alert('Submission failed, please try again later!');
+    });
+    });
+</script>
+
+</body>
+</html>
