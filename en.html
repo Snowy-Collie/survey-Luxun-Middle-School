@@ -39,8 +39,9 @@
 
     <nav>
         <ul>
-            <li><a href="../">Home</a></li>
-            <li><a href="../avp/">AVP</a></li>
+            <li><a href="https://acsstudio.site/">Home</a></li>
+            <li><a href="https://acsstudio.site/avp/">AVP</a></li>
+            <li><a href="./index.html">简体中文</a></li>
         </ul>
     </nav>
 
@@ -233,6 +234,7 @@
     })
     .then(result => {
         alert(result.message);
+        window.location.href = 'finisheden.html'; // 跳转到完成页面
     })
     .catch(error => {
         console.error('Error submitting:', error);
