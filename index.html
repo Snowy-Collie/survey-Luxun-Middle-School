@@ -5,30 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>课题研究调查问卷</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .button {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            /* background: #007bff; */
-            background: #c8102e;
-            color: #fff;
-            text-align: center;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .button:hover {
-            background: hsl(350, 65%, 42%);
-        }
-        textarea{
-            width: 100%;
-        }
-
-
-
-    </style>
 </head>
 <body>
     <header>
@@ -39,8 +15,9 @@
 
     <nav>
         <ul>
-            <li><a href="../">Home</a></li>
-            <li><a href="../avp/">AVP</a></li>
+            <li><a href="https://acsstudio.site/">Home</a></li>
+            <li><a href="https://acsstudio.site/avp/">AVP</a></li>
+            <li><a href="./en.html">English</a></li>
         </ul>
     </nav>
 
@@ -234,6 +211,7 @@
     })
     .then(result => {
         alert(result.message);
+        window.location.href = 'finished.html'; // 跳转到完成页面
     })
     .catch(error => {
         console.error('提交错误:', error);
