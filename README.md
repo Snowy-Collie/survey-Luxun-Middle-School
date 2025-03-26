@@ -3,8 +3,8 @@ The web technology used is ACS Studio.
 
 📢 **Invitation to Participate in a Survey**  
 
-**English Version:** [https://dl.kaka.city/ACS/articles/ENLuxunMiddleSchoolSurvey2024.html](https://dl.kaka.city/ACS/articles/ENLuxunMiddleSchoolSurvey2024.html)  
-**简体中文版本:** [https://dl.kaka.city/ACS/articles/LuxunMiddleSchoolSurvey2024.html](https://dl.kaka.city/ACS/articles/LuxunMiddleSchoolSurvey2024.html)  
+**English Version:** [http://survey.acsstudio.site/en.html](http://survey.acsstudio.site/en.html)
+**简体中文版本:** [http://survey.acsstudio.site/](http://survey.acsstudio.site/)
 
 ---
 
